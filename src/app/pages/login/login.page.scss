@@ -1,0 +1,12 @@
+ion-content {
+    --background: #5260ff;
+}
+
+ion-button[color="primary"] {
+  text-transform: initial;
+}
+
+ion-card, ion-item {
+  --background: #fff;
+  color: gray;
+}

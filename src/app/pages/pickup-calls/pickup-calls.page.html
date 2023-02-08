@@ -1,0 +1,30 @@
+<ion-header color="tertiary">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>My Pickup Calls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <app-pickup-call-card createdAt="2/10/19" updatedAt="1/1/21" [HasHeader]="false" [HasFooter]="false"
+  notes="a ball the grind of the amazon but the amazing " 
+  status="hold"
+  >
+  </app-pickup-call-card>
+
+  <app-pickup-call-card createdAt="2/10/19" updatedAt="1/1/21" [HasHeader]="false" [HasFooter]="false"
+  notes="a ball the grind of the amazon but the amazing " 
+  status="processing">
+  >
+  </app-pickup-call-card>
+
+  <app-pickup-call-card createdAt="2/10/19" updatedAt="1/1/21" [HasHeader]="false" [HasFooter]="false"
+  value="15000"
+  status="finished">
+  >
+  </app-pickup-call-card>
+</ion-content>
